@@ -1,0 +1,33 @@
+
+.list,
+.list-2, 
+.list-3 {
+	display: none;
+	padding-top: 10px;
+	margin-bottom: 60px;
+}
+.list.active,
+.list-2.active,
+.list-3.active{
+	display: block;
+	margin-bottom: 60px;
+}
+.list>ul,
+.list-2>ul, 
+.list-3>ul {
+	padding-left: 0;
+}
+.list>ul>li,
+.list-2>ul>li, 
+.list-3>ul>li {
+	list-style-type: none;
+}
+.list>ul>li>a,
+.list-2>ul>li>a, 
+.list-3>ul>li>a {
+	font-weight: normal;
+}
+.tab-2,
+.tab-3 {
+	margin-top: 60px;
+}

@@ -1,0 +1,70 @@
+.layout-lookbook {
+	padding-bottom: 100px;
+}
+.layout-lookbook>.layout-item:first-child {
+	display: flex;	
+	justify-content: center;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 70px;
+}
+.grid-lookbook>.grid-item:first-child {
+	display: flex;
+	justify-content: flex-end;
+}
+.grid-lookbook>.grid-item:last-child {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 15%;
+}
+.icon-overlay {
+	font-size: 70px;
+
+}
+.grid-lookbook {
+	position: relative;
+}
+.card-lookbook {
+	position: relative;
+}
+.summer-card {
+	margin-top: -128px;
+}
+.up-img {
+	margin-left: 20%;
+}
+.down-img {
+	margin-top: -23%;
+}
+.icon-overlay {
+	position: absolute;
+}
+.square {
+	left: 10%;
+	top: 5%;
+}
+.triangle { 
+	right: 15%;
+	top: 50%;
+	font-size: 50px;
+}
+.circle {
+	bottom: 10%;
+	left: 20%;
+	font-size: 40px;
+}
+.card-title {
+	position: absolute;
+}
+.winter-title {
+	top: 50%;
+	left: -40%;
+}
+.summer-title {
+	top: 57%;
+	left: 42%;
+}
+.previous-winter-title {
+	bottom: 20%;
+	left: -25%;
+}

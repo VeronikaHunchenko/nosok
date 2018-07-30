@@ -1,0 +1,49 @@
+ @font-face {
+    font-family: "Microsoft PhagsPa"; 
+    src: url(fonts/microsoft-phagspa/phagspa.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Microsoft PhagsPa"; 
+    src: url(fonts/microsoft-phagspa-1/phagspa.ttf) format("truetype");
+    font-weight: 600;
+    font-style: normal;
+  }
+
+
+
+:root {
+  --global-font-family:                            "Microsoft PhagsPa", -apple-system, sans-serif;
+  --global-font-size:                              18px;
+  --global-line-height:                            1.333;
+
+  --global-color:                                  #000;
+  --global-muted-color:                            #999;
+
+  --global-link-color:                             #000;
+  --global-link-hover-color:                       #000;
+
+  --global-inverse-color:                          #fff;
+
+  --global-background:                             #fff;
+
+  --global-muted-background:                       #f8f8f8;
+  --global-primary-background:                     #1e87f0;
+  --global-secondary-background:                   #222;
+
+  --global-success-background:                     #32d296;
+  --global-warning-background:                     #faa05a;
+  --global-danger-background:                      #f0506e;
+
+  --global-border-width:                           1px;
+  --global-border:                                 #e5e5e5;
+
+  --global-margin:                                 20px;
+
+  --global-gutter:                                 20px;
+
+  --global-control-height:                         20px;
+}
+
+

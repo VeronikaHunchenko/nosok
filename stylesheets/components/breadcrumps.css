@@ -1,0 +1,31 @@
+/* Breadcrumps*/
+.breadcrumbs {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.layout-breadcrumbs {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.breadcrumbs-nav {
+	display: flex;
+	list-style: none;
+	width: 50%;
+	margin-left: -50px;
+
+}
+.breadcrumbs-nav>li:not(:last-child)::after {
+	content: '/';
+    color: #000;
+    margin: 0 5px;
+}
+.breadcrumbs-nav>li>a {
+	font-weight: normal;
+}
+.is-activ {
+	text-decoration: none !important;
+	cursor: default;
+	opacity: 0.8;
+
+}

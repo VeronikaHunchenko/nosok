@@ -1,0 +1,10 @@
+.layout-products {
+	display: flex;
+	width: 100%;
+}
+.layout-products>.layout-item:first-child {
+	min-width: 251px;
+}
+.layout-products>.layout-item:last-child {
+	width: 100%;
+}
