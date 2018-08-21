@@ -23,7 +23,7 @@
 .card-product:before {
 	position: absolute;
   	content: "";
-  	transition: all 1.3s;
+  	transition: all 0.3s;
   	border-bottom: 1px solid #000;
   	border-right: 1px solid #000;
   	width: 1%;
@@ -48,8 +48,8 @@
 }
 .description {
 	position: absolute;
-	-webkit-transition: all 1.3s ease;
-  	transition: all 1.3s ease;
+	-webkit-transition: all 0.3s ease;
+  	transition: all 0.3s ease;
   	right: 5%;
   	bottom: -10%;
   	opacity: 0;
@@ -67,8 +67,8 @@
 }
 .icon {
 	position: absolute;
-	-webkit-transition: all 1.3s ease;
-  	transition: all 1.3s ease;
+	-webkit-transition: all 0.3s ease;
+  	transition: all 0.3s ease;
   	left: -10%;
   	top: 3%;
   	opacity: 0;
@@ -81,8 +81,8 @@
 }
 .backgrond-img {
 	position: absolute;
-	-webkit-transition: all 1.3s ease;
-  	transition: all 1.3s ease;
+	-webkit-transition: all 0.3s ease;
+  	transition: all 0.3s ease;
 	top: 0;
 }
 .card-product:hover .backgrond-img {
