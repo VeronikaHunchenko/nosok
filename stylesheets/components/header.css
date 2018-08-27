@@ -22,6 +22,9 @@
 .icon-logo {
 	font-size: 56px;
 }
+.logo-link {
+	display: block;
+}
 .navbar-nav {
 	list-style: none;
 	display: flex;
@@ -55,4 +58,34 @@
 }
 .card-features:last-child>a>span {
 	font-size: 23px;
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 486px) {
+	.layout-header {
+		flex-wrap: wrap;
+	}
+	.layout-header>.layout-item {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.layout-header>.layout-item:first-child {
+		width: 100%;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.layout-header>.layout-item:nth-child(2) {
+		width: 0;
+		height: 0;
+		display: inline;
+	}
+	.layout-header>.layout-item:nth-child(3) {
+		width: 100%;
+		justify-content: center;
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+}
+@media only screen and (max-width: 320px) {
+	
 }

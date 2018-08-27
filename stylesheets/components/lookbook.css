@@ -68,3 +68,35 @@
 	bottom: 20%;
 	left: -25%;
 }
+@media only screen and (max-width: 768px) {
+	.triangle { 
+		right: 5%;
+	}
+	.circle {
+		left: 5%;
+	}
+	.winter-title {
+		top: 60%;
+		left: -14%;
+	}
+	/*.summer-title {
+		top: 57%;
+		left: 42%;
+	}*/
+	.previous-winter-title {
+		bottom: 20%;
+		left: 10%;
+	}
+}
+@media only screen and (max-width: 486px) {
+	.icon-overlay {
+		display: none;
+	}
+	.winter-title {
+		top: -5%;
+		left: 10%;
+	}
+}
+@media only screen and (max-width: 320px) {
+	
+}
